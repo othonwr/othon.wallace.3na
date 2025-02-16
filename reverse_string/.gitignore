@@ -1,1 +1,19 @@
-/target/
+# Ignorar a pasta de build do Cargo
+/target
+
+# Ignorar arquivos gerados pelo Cargo
+Cargo.lock
+
+# Ignorar metadados do Rust
+**/*.rs.bk
+
+# Ignorar pastas e arquivos específicos do IDE
+.idea/
+.vscode/
+*.iml
+
+# Ignorar binários compilados
+*.exe
+*.out
+*.o
+*.d
